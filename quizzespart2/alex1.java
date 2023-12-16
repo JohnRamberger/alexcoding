@@ -19,11 +19,15 @@ public class alex1 {
     // TODO: Return the opposite of each element in the array. [true, false, true] -> [false, true, false]
     // only change inside of this method
     //from here
-    int zed = 0;
-    Boolean[] teemo = new Boolean[100];
-    while(zed < before.length)
-
+    int a = 0;
+    while(a < before.length) {
+      if (before[a] == false) {
+        before[a] = true;
+      } else if (before[a] == true) {
+        before[a] = false;
+      }
       
+      a = a + 1;
     }
 
     return before;

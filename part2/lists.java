@@ -61,6 +61,8 @@ public class lists {
 // Low level = hard to read, hard to write, hard to understand: 
 
 
+// == when comparing to quality
+// = is when we are setting a value
 
 
-
+// if you are comparing 2 strings for quality you CANNOT connect strings wiht double equals, in order to compare strings you need to do .equals

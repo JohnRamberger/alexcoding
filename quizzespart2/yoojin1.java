@@ -22,24 +22,24 @@ public class yoojin1 {
     
 
 int i=0;
-int rev = i+1;
-
-before[0]=before[1];
 
 while (i<before.length){
 
-before[i] = before [rev];
-
+if(before[i]==true){   // one equal sets the value. 
+before[i] = false;}
+else{
+  before[i] = true;
+}
 i++;
-rev--;
-
 }
 
-
-
-
-
     return before;
-    // to here
+    // or
+    // for (int i = 0; i < before.length; i = i + 1){
+    // before[i] = !before[i];
+    // }
+
+    // return before;
+
   }
 }
