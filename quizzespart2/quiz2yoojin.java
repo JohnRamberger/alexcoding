@@ -1,4 +1,5 @@
 package part2;
+import java.util.ArrayList; // need for Arraylist
 
 public class quiz2yoojin {
   public static void main(String[] args) {
@@ -23,19 +24,23 @@ public class quiz2yoojin {
 int i = 0;
 int rev = before.length-1;
 
+
+//ArrayList<String> newList = new ArrayList<String>(); 
+
+String[] newList = new String[5];
+
 while (i < before.length){
-  // HINT: what happens here? Doesn't one of the values get overwritten?
-before[i] = before[rev];
+newList[i] = before[rev];
 
 i++;
 rev--;
+}
 
-  }
 
-  //i=0 rev=4 a,e i=1 rev=3     i=2 rev=2   i=3 rev=1 i=4 rev=
-  
 
-    return before;
+  //i=0 rev=4 a,e i=1 rev=3     i=2 rev=2   i=3 rev=1   i=4 rev=0
+
+    return newList;
     // to here
   }
 }

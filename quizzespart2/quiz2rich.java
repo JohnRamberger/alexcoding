@@ -1,6 +1,6 @@
 package part2;
 
-public class quiz2alex {
+public class quiz2rich {
   public static void main(String[] args) {
     String[] before = {"a", "b", "c", "d", "e"};
     String[] after = reverse(before);
@@ -17,30 +17,14 @@ public class quiz2alex {
 
   static String[] reverse(String[] before) {
     // TODO: Reverse all of the elements in the array. [a,b,c,d,e] -> [e,d,c,b,a]
-    // only change inside of this method
-    //from here
-    // before is a parameter, so you dont need
-  
-String abc = "a,b,c,d,e";
-while (abc != before.length) {
-  
+    
+
+    int i = 0;
+    String[] after = new String[before.length];
+    while(i < before.length){
+      after[i] = before[before.length - i - 1];
+      i = i + 1;
+    }
+    return after;
+  }
 }
-
-
-
-
-    }
-
-
-    {
-
-
-    
-    
-
-
-    
-    return before;
-    // to here
-
-    }
