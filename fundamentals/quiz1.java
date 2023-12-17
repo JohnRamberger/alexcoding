@@ -64,7 +64,7 @@ public class quiz1 {
     return 0;
   }
 
-  public static String xXproblem11Xx(String a) {
+  public static String problem11_xXXx(String a) {
     // TODO: Given a string, return the string with xX before and Xx after the string.
     // HINT: no loop is needed
 
@@ -193,7 +193,7 @@ public class quiz1 {
     return 0;
   }
 
-  public static String problem29_concatenate(String[] list) {
+  public static String problem30_concatenate(String[] list) {
     // TODO: Given an array of strings, return a string with the strings concatenated together.
     
     return "";
