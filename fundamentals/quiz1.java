@@ -1,10 +1,6 @@
 package fundamentals;
 
 public class quiz1 {
-  public static void main(String[] args) {
-    
-  }
-
   public static int problem1_sum(int a, int b) {
     // TODO: Given two integers, return the sum of the two integers.
 
