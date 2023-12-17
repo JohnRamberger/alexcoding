@@ -1,6 +1,7 @@
 package fundamentals;
 
 public class quiz1_check {
+  static int failed = 0;
   public static void main(String[] args) {
     test_problem1();
     test_problem2();
@@ -36,6 +37,14 @@ public class quiz1_check {
     test_problem32();
     test_problem33();
     test_problem34();
+
+    if (failed == 0) {
+      System.out.println("--------------------");
+      System.out.println("All tests passed! :D");
+      System.out.println("--------------------");
+    } else {
+      System.out.println("Get to work on the " + failed + " failed tests");
+    }
   }
 
   static void test_problem1() {
@@ -47,6 +56,7 @@ public class quiz1_check {
       System.out.println("problem1_sum failed");
       System.out.println("expected: " + expected);
       System.out.println("actual: " + actual);
+      failed++;
     } else {
       System.out.println("problem1_sum passed");
     }
@@ -59,6 +69,7 @@ public class quiz1_check {
       System.out.println("problem1_sum failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem1_sum passed");
     }
@@ -72,6 +83,7 @@ public class quiz1_check {
       System.out.println("problem2_square failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem2_square passed");
     }
@@ -83,6 +95,7 @@ public class quiz1_check {
       System.out.println("problem2_square failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem2_square passed");
     }
@@ -97,6 +110,7 @@ public class quiz1_check {
       System.out.println("problem3_division failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem3_division passed");
     }
@@ -109,6 +123,7 @@ public class quiz1_check {
       System.out.println("problem3_division failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem3_division passed");
     }
@@ -124,6 +139,7 @@ public class quiz1_check {
       System.out.println("problem4_largest failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem4_largest passed");
     }
@@ -137,6 +153,7 @@ public class quiz1_check {
       System.out.println("problem4_largest failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem4_largest passed");
     }
@@ -150,6 +167,7 @@ public class quiz1_check {
       System.out.println("problem4_largest failed");
       System.out.println("expected: " + expected3);
       System.out.println("actual: " + actual3);
+      failed++;
     } else {
       System.out.println("problem4_largest passed");
     }
@@ -163,6 +181,7 @@ public class quiz1_check {
       System.out.println("problem5_even failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem5_even passed");
     }
@@ -174,6 +193,7 @@ public class quiz1_check {
       System.out.println("problem5_even failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem5_even passed");
     }
@@ -187,6 +207,7 @@ public class quiz1_check {
       System.out.println("problem6_odd failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem6_odd passed");
     }
@@ -198,6 +219,7 @@ public class quiz1_check {
       System.out.println("problem6_odd failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem6_odd passed");
     }
@@ -211,6 +233,7 @@ public class quiz1_check {
       System.out.println("problem7_opposite failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem7_opposite passed");
     }
@@ -222,6 +245,7 @@ public class quiz1_check {
       System.out.println("problem7_opposite failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem7_opposite passed");
     }
@@ -237,6 +261,7 @@ public class quiz1_check {
       System.out.println("problem8_atleast2 failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem8_atleast2 passed");
     }
@@ -250,6 +275,7 @@ public class quiz1_check {
       System.out.println("problem8_atleast2 failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem8_atleast2 passed");
     }
@@ -263,6 +289,7 @@ public class quiz1_check {
       System.out.println("problem8_atleast2 failed");
       System.out.println("expected: " + expected3);
       System.out.println("actual: " + actual3);
+      failed++;
     } else {
       System.out.println("problem8_atleast2 passed");
     }
@@ -276,6 +303,7 @@ public class quiz1_check {
       System.out.println("problem8_atleast2 failed");
       System.out.println("expected: " + expected4);
       System.out.println("actual: " + actual4);
+      failed++;
     } else {
       System.out.println("problem8_atleast2 passed");
     }
@@ -289,6 +317,7 @@ public class quiz1_check {
       System.out.println("problem8_atleast2 failed");
       System.out.println("expected: " + expected5);
       System.out.println("actual: " + actual5);
+      failed++;
     } else {
       System.out.println("problem8_atleast2 passed");
     }
@@ -302,6 +331,7 @@ public class quiz1_check {
       System.out.println("problem9_floor failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem9_floor passed");
     }
@@ -313,6 +343,7 @@ public class quiz1_check {
       System.out.println("problem9_floor failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem9_floor passed");
     }
@@ -324,6 +355,7 @@ public class quiz1_check {
       System.out.println("problem9_floor failed");
       System.out.println("expected: " + expected3);
       System.out.println("actual: " + actual3);
+      failed++;
     } else {
       System.out.println("problem9_floor passed");
     }
@@ -337,6 +369,7 @@ public class quiz1_check {
       System.out.println("problem10_round failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem10_round passed");
     }
@@ -348,6 +381,7 @@ public class quiz1_check {
       System.out.println("problem10_round failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem10_round passed");
     }
@@ -359,6 +393,7 @@ public class quiz1_check {
       System.out.println("problem10_round failed");
       System.out.println("expected: " + expected3);
       System.out.println("actual: " + actual3);
+      failed++;
     } else {
       System.out.println("problem10_round passed");
     }
@@ -372,6 +407,7 @@ public class quiz1_check {
       System.out.println("problem11_xXXx failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem11_xXXx passed");
     }
@@ -383,6 +419,7 @@ public class quiz1_check {
       System.out.println("problem11_xXXx failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem11_xXXx passed");
     }
@@ -397,6 +434,7 @@ public class quiz1_check {
       System.out.println("problem12_concatenate failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem12_concatenate passed");
     }
@@ -409,6 +447,7 @@ public class quiz1_check {
       System.out.println("problem12_concatenate failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem12_concatenate passed");
     }
@@ -422,6 +461,7 @@ public class quiz1_check {
       System.out.println("problem13_length failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem13_length passed");
     }
@@ -433,6 +473,7 @@ public class quiz1_check {
       System.out.println("problem13_length failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem13_length passed");
     }
@@ -447,6 +488,7 @@ public class quiz1_check {
       System.out.println("problem14_longer failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem14_longer passed");
     }
@@ -459,6 +501,7 @@ public class quiz1_check {
       System.out.println("problem14_longer failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem14_longer passed");
     }
@@ -472,6 +515,7 @@ public class quiz1_check {
       System.out.println("problem15_firstremoved failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem15_firstremoved passed");
     }
@@ -483,6 +527,7 @@ public class quiz1_check {
       System.out.println("problem15_firstremoved failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem15_firstremoved passed");
     }
@@ -496,6 +541,7 @@ public class quiz1_check {
       System.out.println("problem16_lastremoved failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem16_lastremoved passed");
     }
@@ -507,6 +553,7 @@ public class quiz1_check {
       System.out.println("problem16_lastremoved failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem16_lastremoved passed");
     }
@@ -520,6 +567,7 @@ public class quiz1_check {
       System.out.println("problem17_firstlastremoved failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem17_firstlastremoved passed");
     }
@@ -531,6 +579,7 @@ public class quiz1_check {
       System.out.println("problem17_firstlastremoved failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem17_firstlastremoved passed");
     }
@@ -544,17 +593,19 @@ public class quiz1_check {
       System.out.println("problem18_swapped failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem18_swapped passed");
     }
 
     String a2 = "hello";
-    String expected2 = "olleh";
+    String expected2 = "oellh";
     String actual2 = quiz1.problem18_swapped(a2);
     if (!actual2.equals(expected2)) {
       System.out.println("problem18_swapped failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem18_swapped passed");
     }
@@ -568,6 +619,7 @@ public class quiz1_check {
       System.out.println("problem19_capitalize failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem19_capitalize passed");
     }
@@ -579,6 +631,7 @@ public class quiz1_check {
       System.out.println("problem19_capitalize failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem19_capitalize passed");
     }
@@ -592,6 +645,7 @@ public class quiz1_check {
       System.out.println("problem20_capitalize2 failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem20_capitalize2 passed");
     }
@@ -603,6 +657,7 @@ public class quiz1_check {
       System.out.println("problem20_capitalize2 failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem20_capitalize2 passed");
     }
@@ -617,6 +672,7 @@ public class quiz1_check {
       System.out.println("problem21_joinspace failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem21_joinspace passed");
     }
@@ -629,6 +685,7 @@ public class quiz1_check {
       System.out.println("problem21_joinspace failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem21_joinspace passed");
     }
@@ -643,18 +700,20 @@ public class quiz1_check {
       System.out.println("problem22_alternating failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem22_alternating passed");
     }
 
-    String a2 = "abc";
-    String b2 = "defge";
-    String expected2 = "adbecfge";
+    String a2 = "abcd";
+    String b2 = "efgh";
+    String expected2 = "aebfcgdh";
     String actual2 = quiz1.problem22_alternating(a2, b2);
     if (!actual2.equals(expected2)) {
       System.out.println("problem22_alternating failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem22_alternating passed");
     }
@@ -670,6 +729,7 @@ public class quiz1_check {
       System.out.println("problem23_longestlength failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem23_longestlength passed");
     }
@@ -683,6 +743,7 @@ public class quiz1_check {
       System.out.println("problem23_longestlength failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem23_longestlength passed");
     }
@@ -696,6 +757,7 @@ public class quiz1_check {
       System.out.println("problem24_double failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected1));
       System.out.println("actual: " + java.util.Arrays.toString(actual1));
+      failed++;
     } else {
       System.out.println("problem24_double passed");
     }
@@ -707,6 +769,7 @@ public class quiz1_check {
       System.out.println("problem24_double failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected2));
       System.out.println("actual: " + java.util.Arrays.toString(actual2));
+      failed++;
     } else {
       System.out.println("problem24_double passed");
     }
@@ -720,6 +783,7 @@ public class quiz1_check {
       System.out.println("problem25_sum failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem25_sum passed");
     }
@@ -731,6 +795,7 @@ public class quiz1_check {
       System.out.println("problem25_sum failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem25_sum passed");
     }
@@ -738,12 +803,13 @@ public class quiz1_check {
 
   static void test_problem26() {
     int[] list1 = {1, -2, 3, -4, 0};
-    boolean[] expected1 = {true, false, true, false, true};
+    boolean[] expected1 = {true, false, true, false, false};
     boolean[] actual1 = quiz1.problem26_positive(list1);
     if (!java.util.Arrays.equals(actual1, expected1)) {
       System.out.println("problem26_positive failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected1));
       System.out.println("actual: " + java.util.Arrays.toString(actual1));
+      failed++;
     } else {
       System.out.println("problem26_positive passed");
     }
@@ -755,6 +821,7 @@ public class quiz1_check {
       System.out.println("problem26_positive failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected2));
       System.out.println("actual: " + java.util.Arrays.toString(actual2));
+      failed++;
     } else {
       System.out.println("problem26_positive passed");
     }
@@ -768,6 +835,7 @@ public class quiz1_check {
       System.out.println("problem27_even failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected1));
       System.out.println("actual: " + java.util.Arrays.toString(actual1));
+      failed++;
     } else {
       System.out.println("problem27_even passed");
     }
@@ -779,6 +847,7 @@ public class quiz1_check {
       System.out.println("problem27_even failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected2));
       System.out.println("actual: " + java.util.Arrays.toString(actual2));
+      failed++;
     } else {
       System.out.println("problem27_even passed");
     }
@@ -792,6 +861,7 @@ public class quiz1_check {
       System.out.println("problem28_floor failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected1));
       System.out.println("actual: " + java.util.Arrays.toString(actual1));
+      failed++;
     } else {
       System.out.println("problem28_floor passed");
     }
@@ -803,6 +873,7 @@ public class quiz1_check {
       System.out.println("problem28_floor failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected2));
       System.out.println("actual: " + java.util.Arrays.toString(actual2));
+      failed++;
     } else {
       System.out.println("problem28_floor passed");
     }
@@ -816,6 +887,7 @@ public class quiz1_check {
       System.out.println("problem29_counttrue failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem29_counttrue passed");
     }
@@ -827,6 +899,7 @@ public class quiz1_check {
       System.out.println("problem29_counttrue failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem29_counttrue passed");
     }
@@ -840,6 +913,7 @@ public class quiz1_check {
       System.out.println("problem30_concatenate failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem30_concatenate passed");
     }
@@ -851,6 +925,7 @@ public class quiz1_check {
       System.out.println("problem30_concatenate failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem30_concatenate passed");
     }
@@ -864,6 +939,7 @@ public class quiz1_check {
       System.out.println("problem31_xXlistXx failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem31_xXlistXx passed");
     }
@@ -875,6 +951,7 @@ public class quiz1_check {
       System.out.println("problem31_xXlistXx failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem31_xXlistXx passed");
     }
@@ -888,6 +965,7 @@ public class quiz1_check {
       System.out.println("problem32_reverse failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem32_reverse passed");
     }
@@ -899,6 +977,7 @@ public class quiz1_check {
       System.out.println("problem32_reverse failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem32_reverse passed");
     }
@@ -913,6 +992,7 @@ public class quiz1_check {
       System.out.println("problem33_filter failed");
       System.out.println("expected: " + expected1);
       System.out.println("actual: " + actual1);
+      failed++;
     } else {
       System.out.println("problem33_filter passed");
     }
@@ -925,6 +1005,7 @@ public class quiz1_check {
       System.out.println("problem33_filter failed");
       System.out.println("expected: " + expected2);
       System.out.println("actual: " + actual2);
+      failed++;
     } else {
       System.out.println("problem33_filter passed");
     }
@@ -940,6 +1021,7 @@ public class quiz1_check {
       System.out.println("problem34_math failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected1));
       System.out.println("actual: " + java.util.Arrays.toString(actual1));
+      failed++;
     } else {
       System.out.println("problem34_math passed");
     }
@@ -953,6 +1035,7 @@ public class quiz1_check {
       System.out.println("problem34_math failed");
       System.out.println("expected: " + java.util.Arrays.toString(expected2));
       System.out.println("actual: " + java.util.Arrays.toString(actual2));
+      failed++;
     } else {
       System.out.println("problem34_math passed");
     }
