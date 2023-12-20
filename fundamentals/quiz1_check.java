@@ -937,8 +937,8 @@ public class quiz1_check {
     String[] actual1 = quiz1.problem31_xXlistXx(list1);
     if (!java.util.Arrays.equals(actual1, expected1)) {
       System.out.println("problem31_xXlistXx failed");
-      System.out.println("expected: " + expected1);
-      System.out.println("actual: " + actual1);
+      System.out.println("expected: " + java.util.Arrays.toString(expected1));
+      System.out.println("actual: " + java.util.Arrays.toString(actual1));
       failed++;
     } else {
       System.out.println("problem31_xXlistXx passed");
@@ -949,8 +949,8 @@ public class quiz1_check {
     String[] actual2 = quiz1.problem31_xXlistXx(list2);
     if (!java.util.Arrays.equals(actual2, expected2)) {
       System.out.println("problem31_xXlistXx failed");
-      System.out.println("expected: " + expected2);
-      System.out.println("actual: " + actual2);
+      System.out.println("expected: " + java.util.Arrays.toString(expected2));
+      System.out.println("actual: " + java.util.Arrays.toString(actual2));
       failed++;
     } else {
       System.out.println("problem31_xXlistXx passed");
@@ -963,8 +963,8 @@ public class quiz1_check {
     String[] actual1 = quiz1.problem32_reverse(list1);
     if (!java.util.Arrays.equals(actual1, expected1)) {
       System.out.println("problem32_reverse failed");
-      System.out.println("expected: " + expected1);
-      System.out.println("actual: " + actual1);
+      System.out.println("expected: " + java.util.Arrays.toString(expected1));
+      System.out.println("actual: " + java.util.Arrays.toString(actual1));
       failed++;
     } else {
       System.out.println("problem32_reverse passed");
@@ -975,8 +975,8 @@ public class quiz1_check {
     String[] actual2 = quiz1.problem32_reverse(list2);
     if (!java.util.Arrays.equals(actual2, expected2)) {
       System.out.println("problem32_reverse failed");
-      System.out.println("expected: " + expected2);
-      System.out.println("actual: " + actual2);
+      System.out.println("expected: " + java.util.Arrays.toString(expected2));
+      System.out.println("actual: " + java.util.Arrays.toString(actual2));
       failed++;
     } else {
       System.out.println("problem32_reverse passed");
@@ -990,8 +990,8 @@ public class quiz1_check {
     String[] actual1 = quiz1.problem33_filter(list1, list2);
     if (!java.util.Arrays.equals(actual1, expected1)) {
       System.out.println("problem33_filter failed");
-      System.out.println("expected: " + expected1);
-      System.out.println("actual: " + actual1);
+      System.out.println("expected: " + java.util.Arrays.toString(expected1));
+      System.out.println("actual: " + java.util.Arrays.toString(actual1));
       failed++;
     } else {
       System.out.println("problem33_filter passed");
@@ -1003,8 +1003,8 @@ public class quiz1_check {
     String[] actual2 = quiz1.problem33_filter(list3, list4);
     if (!java.util.Arrays.equals(actual2, expected2)) {
       System.out.println("problem33_filter failed");
-      System.out.println("expected: " + expected2);
-      System.out.println("actual: " + actual2);
+      System.out.println("expected: " + java.util.Arrays.toString(expected2));
+      System.out.println("actual: " + java.util.Arrays.toString(actual2));
       failed++;
     } else {
       System.out.println("problem33_filter passed");
