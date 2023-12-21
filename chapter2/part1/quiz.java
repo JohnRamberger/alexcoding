@@ -50,6 +50,22 @@ package chapter2.part1;
  * CHECKPOINT: 13. Run the main method and make sure all tests pass.
  */
 
+class Lion {
+
+}
+
+class Tiger {
+
+}
+
+class Bear {
+
+}
+
+class Animal {
+
+}
+
 public class quiz {
   public static void main(String[] args) {
     int failed = 0;
