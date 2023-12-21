@@ -74,9 +74,9 @@ public class quiz {
     failed += testTiger();
     failed += testBear();
 
-    print("----------------------");
-    print("--------Report--------");
-    print("----------------------");
+    print("--------");
+    print("-Report-");
+    print("--------");
 
     if (failed == 0) {
       print("All tests passed!");
