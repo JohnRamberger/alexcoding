@@ -6,8 +6,6 @@ public class a {
     
     US.a = 20;
     System.out.println(country.a);
-    
-
   }
 }
 
