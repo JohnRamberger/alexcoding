@@ -9,7 +9,7 @@ package chapter2.finalquiz;
  * 3. Start the array with a capacity of 10 and double the capacity whenever the array exceeds its capacity.
  * 4. Whenever the array exceeds its capacity, you must create a new array with double the capacity and copy all elements over.
  * 5. You may assume that the list will only contain non-null elements.
- * 6. You may assume that the list will only contain elements of the same type.
+ * 6. You may assume that the list will only contain elements of type T.
  */
 
   
@@ -19,7 +19,6 @@ package chapter2.finalquiz;
  */
 public class ArrayList<T> {
   // TODO: Define the instance variables you need here.
-
 
   /**
    * Adds the given value to the end of the list.
