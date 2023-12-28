@@ -1,8 +1,5 @@
 package chapter2.finalquiz;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-
 /**
  * TODO: Complete ArrayList.java so that it passes all tests below.
  * For more details, see ArrayList.java.
