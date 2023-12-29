@@ -19,6 +19,7 @@ package chapter2.finalquiz;
  */
 public class ArrayList<T> {
   // TODO: Define the instance variables you need here.
+  
 
   /**
    * Adds the given value to the end of the list.
@@ -55,6 +56,7 @@ public class ArrayList<T> {
    * @param value
    */
   public void set(int index, T value) {
+    // TODO: Implement this method.
     throw new UnsupportedOperationException("ArrayList.set(int index, T value) needs to be implemented.");
   }
 
