@@ -19,7 +19,6 @@ package chapter2.finalquiz;
  */
 public class ArrayList<T> {
   // TODO: Define the instance variables you need here.
-  
 
   /**
    * Adds the given value to the end of the list.
