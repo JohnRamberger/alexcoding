@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello hello hello...</title>
+    <!--  ctrl + / makes a comment -->
+  </head>
+  <body>
+
+<!-- you can use padding instead of height -->
+<!-- margin is left and right and padding is top and bottom -->
+    <!-- <h1 style="width:66%;text-align: center; padding: 100px 0; ">heading 1</h1> -->
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+
+    <!-- <p style="animation: anim 10s infinite;">paragraph</p> -->
+    <p style="color: red;">paragraph</p>
+    
+    <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/4/43/Genshin-wanderer-splash.png?width=640" width="100em" height="auto" />
+    <!-- src="" is an attribute, anything that looks like it
+      is also an attribute -->
+      
+      <!-- backround-color -->
+      <!-- border -->
+      <div id="box">
+        <div><p>asd</p></div>
+        <div><p>asd</p></div>
+        <div><p>asd</p></div>
+        <div><p>asd</p></div>
+        <div><p>asd</p></div>
+        <div><p>asd</p></div>
+        <p>asd</p>
+      <!-- <p>asd</p>
+      <p>asd</p>
+      <p>asd</p> -->
+    </div>
+
+    <div>asd</div>
+
+    <p>hsdjkfhjk sdhfkjsdahkjf <span style="color:red;">hsdjkfhjksd</span> hfjksafjkh sdjkfhdhgj kfhdgjkhfhg</p>
+<!-- span = same line -->
+<!-- div = breaks the line apart into a seperate container -->
+<!-- ul = list -->
+<!-- li = list item -->
+
+    <ul>
+      <li><h1>asd</h1></li>
+      <li>asd</li>
+      <li>asd</li>
+      <li>asd</li>
+    </ul>
+
+    <button onclick="alert('hello')" style="background-color: red;font-family: 'Times New Roman', Times, serif;">click me!</button>
+
+    <input type="file" />
+    <input type="checkbox" checked=true />
+    <input type="hidden" />
+    <input type="number" />
+    <input type="date" />
+    <input type="radio" name="a" />
+    <input type="radio" name="a" />
+    <input type="tel" />
+    <input type="text" />
+    
+    <label for="address">Address</label>
+    <input id="address" type="checkbox" placeholder="address" />
+
+    <input type="button" value="hello" />
+    <input type="submit" value="hello" />
+    
+    <!-- <form>
+      <input type="text" placeholder="name"/>
+      <input type="submit" value="hello" />
+
+    </form> -->
+
+    <textarea placeholder="asdasd">xcxcxcxc</textarea>
+
+    <input type="button" value="light" onclick="document.body.style.backgroundColor = '#fff'" />
+    <input type="button" value="dark" onclick="document.body.style.backgroundColor = '#000'"/>
+  
+    <div id="grid">
+      <div class="cell">
+        <p>asd</p>
+      </div>
+      <div class="cell">
+        <p>asd</p>
+      </div>
+      <div class="cell">
+        <p>asd</p>
+      </div>
+      <div class="cell">
+        <p>asd</p>
+      </div>
+    </div>
+
+
+
+<!-- google "pattern" -->
+<!-- "alert" will make a popup -->
+<!-- "on" means that an event will occur -->
+<!-- CSS = cascade style sheet -->
+    <style>
+      html * {
+        box-sizing: border-box;
+      }
+      /* @keyframes anim {
+        0% {
+          color: #000;
+        }
+        100% {
+          color: #aa2020;
+        }
+      } */
+      
+      /* one of the first things you can do is to set box sizing to border box in order to ensure
+      sizing as all children of html will have the box sizing */
+      #box {
+        border: 1px solid red;
+        width: 100px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        position: sticky;
+        top: 5px;
+        right: 5px;
+        display: block;
+      }
+
+      /* CSS selector is how we select stuff in CSS, so if we want everything within a box
+      then we use a star * */
+      #box:hover {
+        width: 500px;
+        border: 1px solid green;
+        background-color: #c0c0c0;
+      }
+/*  id means you access it with a hashtag */
+/* . is for classes */
+      #grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 500px;
+        border: 1px dashed green;
+      }
+
+      .cell {
+        width: 50%;
+        height: 50%;
+        border: 1px solid red;
+        background-color: yellow;
+        padding: 10px 100px;
+      }
+    
+
+    </style>
+
+    <!-- <script>
+      document.body.style.backgroundColor = "red";
+    </script> -->
+  </body>
+</html>
